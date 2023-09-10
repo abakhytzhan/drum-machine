@@ -72,6 +72,7 @@ function App() {
 
   const powerHandler = () => {
     setPower((prev) => !prev);
+    setDisplay("");
   };
 
   const volumeHandler = (event) => {
